@@ -4,7 +4,7 @@
 .bun-top {
   height: 70px;
   width: 60%;
-  background: #e5b05a;
+  background: #a2690e;
   border-radius: 100px 100px 20px 20px;
   border-bottom: solid 10px rgba(0,0,0,.1);
 }
@@ -57,7 +57,7 @@
 .bun-bottom {
   height: 35px;
   width: 60%;
-  background: #e5b05a;
+  background:  #a2690e;
   border-radius: 20px 20px 40px 40px;
   border-top: solid 8px rgba(0,0,0,.1)
 }
@@ -68,3 +68,103 @@
   background: #656565;
   border-radius: 20px 20px 200px 200px;
 }
+
+
+/* ===== BURGER 2 INGREDIENTS ===== */
+
+.bun-top2 {
+  height: 75px;
+  width: 65%;
+  background: linear-gradient(180deg, #d89a32, #a46a14);
+  border-radius: 120px 120px 25px 25px;
+  border-bottom: solid 10px rgba(0,0,0,.15);
+}
+
+.mayo2 {
+  height: 19px;
+  width: 60%;
+  background: #f6e8ca;
+  border-radius: 0 0 30px 30px;
+  border-bottom: solid 3px rgba(0,0,0,.1);
+}
+
+.bacon2 {
+  height: 16px;
+  width: 65%;
+  background: repeating-linear-gradient(
+    90deg,
+    #b4162c 0 14px,
+    #f1b08b 14px 26px
+  );
+  border-radius: 10px;
+  border-bottom: solid 2px rgba(0,0,0,.12);
+}
+
+.egg2 {
+  height: 40px;
+  width: 58%;
+  background: #ffffff;
+  border-radius: 999px;
+  border-bottom: solid 9px rgba(0,0,0,.12);
+  position: relative;
+}
+
+.egg2::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: #ffcc2f;
+  border-radius: 50%;
+}
+
+.cheese2 {
+  height: 18px;
+  width: 68%;
+  background: #ffcc33;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.patty2 {
+  height: 40px;
+  width: 70%;
+  background: #6d3a1e;
+  border-radius: 18px;
+  border-bottom: solid 3px rgba(0,0,0,.2);
+}
+
+.tomato2 {
+  height: 28px;
+  width: 55%;
+  background: #ff4d2a;
+  border-radius: 100px;
+  border-bottom: solid 3px rgba(0,0,0,.15);
+}
+
+.pickle2 {
+  height: 32px;
+  width: 55%;
+  background: #4dff9c;
+  border-radius: 0 0 120px 120px;
+  border-bottom: solid 10px #2d9961;
+}
+
+.bun-bottom2 {
+  height: 40px;
+  width: 65%;
+   background: linear-gradient(180deg, #d89a32, #a46a14);
+  border-radius: 25px 25px 50px 50px;
+  border-top: solid 8px rgba(0,0,0,.15);
+}
+
+.plate2 {
+  height: 30px;
+  width: 82%;
+  background: #353948;
+  border-radius: 30px 30px 200px 200px;
+}
+
+
